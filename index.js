@@ -10,6 +10,6 @@ app.get('/',function(req,res){
 app.use('/api',routes)
 
 app.listen(PORT,function(){
-    console.log("Servidor online")
+    console.log("Servidor online, porta:"+PORT)
 })
 
